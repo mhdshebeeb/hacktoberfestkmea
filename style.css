@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    background-color: rgb(221, 221, 221);  
+  
+}
+
+.banner{
+    position: relative;
+    background-image: url(/components/images/banner.png);
+    height:450px;
+    width: 100%;
+    background-size:cover;
+    background-position:center center;
+    padding-top: 140px;
+    background-repeat: no-repeat;
+}
+
+.caption{
+
+    color:whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: center;
+    position: sticky;
+    padding-top: 50vh;
+    margin: 0 10vw;
+    font-size: small;
+}
+
+
+.about{
+    width: 400px;
+    height: 80px;
+    padding-left: 40px;
+    padding-top: 20px;
+   box-sizing: content-box;
+   background-color: rgb(158, 158, 158);
+}
+/* .parag{ */
+   width: 400px;
+   height: 110px;
+   box-sizing: content-box;
+   background-color: rgb(158, 158, 158);
+   padding-left: 40px;
+   
+/* } */
+
+.banner__button{
+    padding-top: 25px;
+    padding:0.5rem 2rem 0.5rem 2rem;
+    background-color: rgb(255, 47, 0);
+    border: none;
+    outline: none;
+    transition: 1s all;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+.banner__button:hover{
+   background-color: #e6e4e4;
+   color: black;
+   cursor: pointer;
+}
+.box1{
+    width: 40%;
+    height: 110px;
+    /* background-color: aqua; */
+}
